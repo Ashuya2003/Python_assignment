@@ -1,11 +1,36 @@
 name= input("name of the student : ")
-subject1 = float(input("Enter the subject1: "))
-subject2 = float(input("Enter the subject2: "))
-subject3 = float(input("Enter the subject3: "))
-subject4 = float(input("Enter the subject4: "))
-subject5 = float(input("Enter the subject5: "))
-subject6 = float(input("Enter the subject6: "))
-result=subject1 + subject2 + subject3 + subject4 + subject5 + subject6
+subject = float(input("Enter the subject1: "))
+if subject>40:
+    print("pass")
+else:
+    print("fail")
+subject= float(input("Enter the subject2: "))
+if subject>40:
+    print("pass")
+else:
+    print("fail")
+subject = float(input("Enter the subject3: "))
+if subject>40:
+    print("pass")
+else:
+    print("fail")
+subject= float(input("Enter the subject4: "))
+if subject>40:
+    print("pass")
+else:
+    print("fail")
+subject = float(input("Enter the subject5: "))
+if subject>40:
+    print("pass")
+else:
+    print("fail")
+subject = float(input("Enter the subject6: "))
+if subject>40:
+    print("pass")
+else:
+    print("fail")
+result=subject + subject + subject + subject + subject + subject
+
 print("sum of the subjects",result)
 print(name)
 if result>600:
@@ -28,3 +53,5 @@ elif result>200:
    print("keep studying")
 else:
        print("work hard")
+
+   
